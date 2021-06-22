@@ -105,6 +105,13 @@
                         </xs:annotation>
                         </xs:attribute>
                         <xs:attribute
+                                        ref="mdr:DescribedValueDomain"
+                                        use="optional" >
+                        <xs:annotation>
+                                <xs:documentation>Describes possible values the variable can take.</xs:documentation>
+                        </xs:annotation>
+                        </xs:attribute>
+                        <xs:attribute
                                         ref="mdr:SubmissionDataType"
                                         use="required" >
                         <xs:annotation>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf8'?>
-<ODM AsOfDateTime="2021-03-31T00:00:00+00:00" CreationDateTime="2021-06-17T15:33:20.852917+00:00"
+<ODM AsOfDateTime="2021-03-31T00:00:00+00:00" CreationDateTime="2021-06-22T17:36:22.444395+00:00"
     FileOID="ODM.SENDIGv3.1.1.2021-03-31" FileType="Snapshot" Granularity="Metadata"
     ODMVersion="1.3.2" Originator="CDISC LIBRARY" SourceSystem="cdisc_library_api"
     SourceSystemVersion="1.0" def:Context="Other" mdr:LibraryXMLVersion="1.0.0"
@@ -1453,7 +1453,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="EXSTDTC" OID="IT.EX.EXSTDTC" mdr:Core="Exp"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Start Date/Time of Treatment</TranslatedText>
                 </Description>
@@ -1463,7 +1463,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="EXENDTC" OID="IT.EX.EXENDTC" mdr:Core="Perm"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">End Date/Time of Treatment</TranslatedText>
                 </Description>
@@ -1497,7 +1497,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="EXDUR" OID="IT.EX.EXDUR" mdr:Core="Perm"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Duration of Treatment</TranslatedText>
                 </Description>
@@ -1530,7 +1530,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="EXELTM" OID="IT.EX.EXELTM" mdr:Core="Perm"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Planned Elapsed Time from Time Point
                         Ref</TranslatedText>
@@ -1559,7 +1559,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="EXRFTDTC" OID="IT.EX.EXRFTDTC" mdr:Core="Perm"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Date/Time of Reference Time Point</TranslatedText>
                 </Description>
@@ -1657,7 +1657,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="DSSTDTC" OID="IT.DS.DSSTDTC" mdr:Core="Req"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Date/Time of Disposition</TranslatedText>
                 </Description>
@@ -1914,7 +1914,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="BWDTC" OID="IT.BW.BWDTC" mdr:Core="Exp"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Date/Time Animal Weighed</TranslatedText>
                 </Description>
@@ -2125,7 +2125,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="BGDTC" OID="IT.BG.BGDTC" mdr:Core="Exp"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Date/Time Animal Weighed</TranslatedText>
                 </Description>
@@ -2135,7 +2135,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="BGENDTC" OID="IT.BG.BGENDTC" mdr:Core="Exp"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">End Date/Time Animal Weighed</TranslatedText>
                 </Description>
@@ -2450,7 +2450,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="CLDTC" OID="IT.CL.CLDTC" mdr:Core="Exp"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Date/Time of Observation</TranslatedText>
                 </Description>
@@ -2462,7 +2462,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="CLENDTC" OID="IT.CL.CLENDTC" mdr:Core="Perm"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">End Date/Time of Observation</TranslatedText>
                 </Description>
@@ -2543,7 +2543,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="CLELTM" OID="IT.CL.CLELTM" mdr:Core="Perm"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Planned Elapsed Time from Time Point
                         Ref</TranslatedText>
@@ -2572,7 +2572,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="CLRFTDTC" OID="IT.CL.CLRFTDTC" mdr:Core="Perm"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Date/Time of Reference Time Point</TranslatedText>
                 </Description>
@@ -2693,7 +2693,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="DDDTC" OID="IT.DD.DDDTC" mdr:Core="Perm"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Date/Time</TranslatedText>
                 </Description>
@@ -2909,7 +2909,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="FWDTC" OID="IT.FW.FWDTC" mdr:Core="Exp"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Start Date/Time of Observation</TranslatedText>
                 </Description>
@@ -2919,7 +2919,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="FWENDTC" OID="IT.FW.FWENDTC" mdr:Core="Exp"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">End Date/Time of Observation</TranslatedText>
                 </Description>
@@ -3469,7 +3469,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="LBDTC" OID="IT.LB.LBDTC" mdr:Core="Exp"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Date/Time of Specimen Collection</TranslatedText>
                 </Description>
@@ -3479,7 +3479,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="LBENDTC" OID="IT.LB.LBENDTC" mdr:Core="Perm"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">End Date/Time of Specimen
                         Collection</TranslatedText>
@@ -3559,7 +3559,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="LBELTM" OID="IT.LB.LBELTM" mdr:Core="Perm"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Planned Elapsed Time from Time Point
                         Ref</TranslatedText>
@@ -3588,7 +3588,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="LBRFTDTC" OID="IT.LB.LBRFTDTC" mdr:Core="Perm"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Date/Time of Reference Time Point</TranslatedText>
                 </Description>
@@ -3904,7 +3904,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="MADTC" OID="IT.MA.MADTC" mdr:Core="Perm"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Date/Time</TranslatedText>
                 </Description>
@@ -4266,7 +4266,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="MIDTC" OID="IT.MI.MIDTC" mdr:Core="Perm"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Date/Time</TranslatedText>
                 </Description>
@@ -4545,7 +4545,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="OMDTC" OID="IT.OM.OMDTC" mdr:Core="Exp"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Date/Time Organ Measured</TranslatedText>
                 </Description>
@@ -4802,7 +4802,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="PMDTC" OID="IT.PM.PMDTC" mdr:Core="Exp"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Date/Time of Observation</TranslatedText>
                 </Description>
@@ -5205,7 +5205,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="PCDTC" OID="IT.PC.PCDTC" mdr:Core="Perm"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Date/Time of Specimen Collection</TranslatedText>
                 </Description>
@@ -5216,7 +5216,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="PCENDTC" OID="IT.PC.PCENDTC" mdr:Core="Perm"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">End Date/Time of Specimen
                         Collection</TranslatedText>
@@ -5294,7 +5294,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="PCELTM" OID="IT.PC.PCELTM" mdr:Core="Exp"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Planned Elapsed Time from Time Point
                         Ref</TranslatedText>
@@ -5322,7 +5322,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="PCRFTDTC" OID="IT.PC.PCRFTDTC" mdr:Core="Exp"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Date/Time of Reference Point</TranslatedText>
                 </Description>
@@ -5332,7 +5332,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="PCEVLINT" OID="IT.PC.PCEVLINT" mdr:Core="Perm"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Evaluation Interval</TranslatedText>
                 </Description>
@@ -5598,7 +5598,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="PPRFTDTC" OID="IT.PP.PPRFTDTC" mdr:Core="Exp"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Date/Time of Reference Point</TranslatedText>
                 </Description>
@@ -5609,7 +5609,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="PPSTINT" OID="IT.PP.PPSTINT" mdr:Core="Perm"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Start of Assessment Interval</TranslatedText>
                 </Description>
@@ -5621,7 +5621,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="PPENINT" OID="IT.PP.PPENINT" mdr:Core="Perm"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">End of Assessment Interval</TranslatedText>
                 </Description>
@@ -5775,7 +5775,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="SCDTC" OID="IT.SC.SCDTC" mdr:Core="Perm"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Date/Time of Collection</TranslatedText>
                 </Description>
@@ -6038,7 +6038,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="TFDTC" OID="IT.TF.TFDTC" mdr:Core="Perm"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Date/Time</TranslatedText>
                 </Description>
@@ -6363,7 +6363,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="VSDTC" OID="IT.VS.VSDTC" mdr:Core="Exp"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Date/Time of Measurement</TranslatedText>
                 </Description>
@@ -6374,7 +6374,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="VSENDTC" OID="IT.VS.VSENDTC" mdr:Core="Perm"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">End Date/Time of Measurement</TranslatedText>
                 </Description>
@@ -6456,7 +6456,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="VSELTM" OID="IT.VS.VSELTM" mdr:Core="Perm"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Planned Elapsed Time from Time Point
                         Ref</TranslatedText>
@@ -6485,7 +6485,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="VSRFTDTC" OID="IT.VS.VSRFTDTC" mdr:Core="Perm"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Date/Time of Time Point Reference</TranslatedText>
                 </Description>
@@ -6836,7 +6836,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="EGDTC" OID="IT.EG.EGDTC" mdr:Core="Exp"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Date/Time of ECG Collection</TranslatedText>
                 </Description>
@@ -6847,7 +6847,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="EGENDTC" OID="IT.EG.EGENDTC" mdr:Core="Perm"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">End Date/Time of ECG Collection</TranslatedText>
                 </Description>
@@ -6927,7 +6927,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="EGELTM" OID="IT.EG.EGELTM" mdr:Core="Perm"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Planned Elapsed Time from Time Point
                         Ref</TranslatedText>
@@ -6956,7 +6956,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="EGRFTDTC" OID="IT.EG.EGRFTDTC" mdr:Core="Perm"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Date/Time of Reference Time Point</TranslatedText>
                 </Description>
@@ -6966,7 +6966,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="EGEVLINT" OID="IT.EG.EGEVLINT" mdr:Core="Perm"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Evaluation Interval</TranslatedText>
                 </Description>
@@ -6977,7 +6977,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="EGSTINT" OID="IT.EG.EGSTINT" mdr:Core="Perm"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Planned Start of Assessment
                         Interval</TranslatedText>
@@ -6989,7 +6989,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="EGENINT" OID="IT.EG.EGENINT" mdr:Core="Perm"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Planned End of Assessment
                         Interval</TranslatedText>
@@ -7264,7 +7264,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="CVDTC" OID="IT.CV.CVDTC" mdr:Core="Exp"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Date/Time of Cardiovascular Test</TranslatedText>
                 </Description>
@@ -7276,7 +7276,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="CVENDTC" OID="IT.CV.CVENDTC" mdr:Core="Perm"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">End Date/Time of Cardiovascular
                         Test</TranslatedText>
@@ -7358,7 +7358,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="CVELTM" OID="IT.CV.CVELTM" mdr:Core="Exp"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Planned Elapsed Time from Time Point
                         Ref</TranslatedText>
@@ -7387,7 +7387,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="CVRFTDTC" OID="IT.CV.CVRFTDTC" mdr:Core="Perm"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Date/Time of Reference Time Point</TranslatedText>
                 </Description>
@@ -7397,7 +7397,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="CVEVLINT" OID="IT.CV.CVEVLINT" mdr:Core="Perm"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Evaluation Interval</TranslatedText>
                 </Description>
@@ -7408,7 +7408,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="CVSTINT" OID="IT.CV.CVSTINT" mdr:Core="Exp"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Planned Start of Assessment
                         Interval</TranslatedText>
@@ -7421,7 +7421,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="CVENINT" OID="IT.CV.CVENINT" mdr:Core="Exp"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Planned End of Assessment
                         Interval</TranslatedText>
@@ -7697,7 +7697,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="REDTC" OID="IT.RE.REDTC" mdr:Core="Exp"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Date/Time of Respiratory
                         Measurement</TranslatedText>
@@ -7710,7 +7710,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="REENDTC" OID="IT.RE.REENDTC" mdr:Core="Perm"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">End Date/Time of Respiratory
                         Measurement</TranslatedText>
@@ -7794,7 +7794,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="REELTM" OID="IT.RE.REELTM" mdr:Core="Exp"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Planned Elapsed Time from Time Point
                         Ref</TranslatedText>
@@ -7823,7 +7823,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="RERFTDTC" OID="IT.RE.RERFTDTC" mdr:Core="Perm"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Date/Time of Reference Time Point</TranslatedText>
                 </Description>
@@ -7833,7 +7833,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="REEVLINT" OID="IT.RE.REEVLINT" mdr:Core="Perm"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Evaluation Interval</TranslatedText>
                 </Description>
@@ -7844,7 +7844,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="RESTINT" OID="IT.RE.RESTINT" mdr:Core="Exp"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Planned Start of Assessment
                         Interval</TranslatedText>
@@ -7857,7 +7857,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="REENINT" OID="IT.RE.REENINT" mdr:Core="Exp"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Planned End of Assessment
                         Interval</TranslatedText>
@@ -7911,7 +7911,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="RFSTDTC" OID="IT.DM.RFSTDTC" mdr:Core="Req"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Subject Reference Start Date/Time</TranslatedText>
                 </Description>
@@ -7924,7 +7924,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="RFENDTC" OID="IT.DM.RFENDTC" mdr:Core="Exp"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Subject Reference End Date/Time</TranslatedText>
                 </Description>
@@ -7937,7 +7937,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="RFXSTDTC" OID="IT.DM.RFXSTDTC" mdr:Core="Perm"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Date/Time of First Study
                         Treatment</TranslatedText>
@@ -7949,7 +7949,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="RFXENDTC" OID="IT.DM.RFXENDTC" mdr:Core="Perm"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Date/Time of Last Study Treatment</TranslatedText>
                 </Description>
@@ -7972,7 +7972,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="BRTHDTC" OID="IT.DM.BRTHDTC" mdr:Core="Perm"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Date/Time of Birth</TranslatedText>
                 </Description>
@@ -7993,7 +7993,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="AGETXT" OID="IT.DM.AGETXT" mdr:Core="Perm"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="number-number" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Age Range</TranslatedText>
                 </Description>
@@ -8233,7 +8233,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="CODTC" OID="IT.CO.CODTC" mdr:Core="Exp"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Date/Time of Comment</TranslatedText>
                 </Description>
@@ -8320,7 +8320,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="SESTDTC" OID="IT.SE.SESTDTC" mdr:Core="Req"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Start Date/Time of Element</TranslatedText>
                 </Description>
@@ -8330,7 +8330,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="SEENDTC" OID="IT.SE.SEENDTC" mdr:Core="Exp"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">End Date/Time of Element</TranslatedText>
                 </Description>
@@ -8412,7 +8412,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="TEDUR" OID="IT.TE.TEDUR" mdr:Core="Perm"
-                mdr:SubmissionDataType="Char">
+                mdr:DescribedValueDomain="ISO 8601" mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Planned Duration of Element</TranslatedText>
                 </Description>
@@ -8696,6 +8696,7 @@
                 </mdr:CDISCNotes>
             </ItemDef>
             <ItemDef DataType="text" Name="TSVALNF" OID="IT.TS.TSVALNF" mdr:Core="Perm"
+                mdr:DescribedValueDomain="ISO 21090 NullFlavor enumeration"
                 mdr:SubmissionDataType="Char">
                 <Description>
                     <TranslatedText xml:lang="en">Parameter Null Flavor</TranslatedText>

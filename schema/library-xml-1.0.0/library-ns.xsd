@@ -157,5 +157,12 @@
     </xs:annotation>
   </xs:attribute>
 
+  <xs:attribute
+      name="DescribedValueDomain"
+      type="odm:text">
+    <xs:annotation>
+      <xs:documentation>SDTM DescribedValueDomain or Format</xs:documentation>
+    </xs:annotation>
+  </xs:attribute>
 
 </xs:schema>
