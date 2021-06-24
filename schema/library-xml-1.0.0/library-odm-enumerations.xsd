@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema
+    targetNamespace="http://www.cdisc.org/ns/library-xml/v1.0"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:mdr="http://www.cdisc.org/ns/library-xml/v1.0"
+    elementFormDefault="qualified"
+    attributeFormDefault="unqualified">
+
+  <xs:redefine schemaLocation="library-ns.xsd">
+
+    <xs:simpleType name="CoreType">
+      <xs:annotation>
+        <xs:documentation>Core.</xs:documentation>
+      </xs:annotation>
+      <xs:restriction base="mdr:CoreType">
+        <xs:enumeration value="HR" />
+        <xs:enumeration value="O" />
+        <xs:enumeration value="R/C" />
+      </xs:restriction>
+    </xs:simpleType>
+
+  </xs:redefine>
+
+</xs:schema>
